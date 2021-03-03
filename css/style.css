@@ -1,0 +1,50 @@
+<!-- for styes-->
+
+#y {
+/*				background-color: yellow;
+*/				margin: 10px;
+				padding: 5px;
+				grid-area: y;
+
+			}
+
+			#g {
+					margin: 10px;
+				padding: 5px;
+				grid-area: g;
+
+			}
+
+			#b {
+                	margin: 10px;
+				padding: 5px;
+				grid-area: b;
+			}
+
+			#r {
+					margin: 10px;
+				padding: 5px;
+				grid-area: r;
+			}
+
+			#a {
+					margin: 10px;
+				padding: 5px;
+				grid-area: a;
+			}
+
+			.gridContainer {
+				display: grid;
+				grid-template-areas: 
+				'y y y y y'
+				'g b b b b'
+				'r r r r a'; 
+				/*i actually forgot a semi colon :-() and remove the extra div from the template ; */
+
+			}
+
+			#slogan {
+				padding: 10px;
+				text-align: center;
+			}
+
